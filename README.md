@@ -1,4 +1,4 @@
 # My Student Site
-A student site for courses 2020
+This is my student site for NMA courses 2020
 
-[View Github Pages Hosted Site](https://github.com/mnb62/studentsite)
+This is my [Github Hosted Links](https://github.com/mnb62/studentsite)
