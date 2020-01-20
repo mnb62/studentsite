@@ -1,5 +1,4 @@
 <html>
-    <title>An Adequate Student Site</title>
 <head>
     <h1>An Adequate Student Site</h1>
 </head>
