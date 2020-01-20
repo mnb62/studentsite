@@ -6,7 +6,7 @@
 
 <body>
 <h1>An Adequate Student Site</h1>
-<p> This is my student site for NMA...lorem impsum and all that good stuff
+<p> This is my student site for NMA...lorem impsum and what not.
 <li>This is a <a href="http://google.com">simple webpage</a></li>
 </p>
 </body>
