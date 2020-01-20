@@ -1,5 +1,13 @@
-# My Student Site
-## This is my student site for NMA
-Please be kind to me
+<!doctype html>
+<html lang="en">
+<head>
+    <title>An Adequate Student Site</title>
+</head>
 
-This is my [Github Hosted Links](https://github.com/mnb62/studentsite)
+<body>
+<h1>An Adequate Student Site</h1>
+<p> This is my student site for NMA...lorem impsum and all that good stuff
+<li>This is a <a href="http://google.com">simple webpage</a></li>
+</p>
+</body>
+</html>
