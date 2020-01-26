@@ -1,0 +1,75 @@
+/*BODY */
+
+body {
+    background: #ccc;
+    color: #333;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 100%; /*16px */
+    line-height: 1.5em;
+    padding: 1em;
+}
+
+/*HEADING
+    Based on Traditonal Typographic scale
+    16	18	21	24	36	48
+*/
+
+h1, h2, h3, h4, h5, h6{
+    margin: .5em 0;
+}
+h1{
+    font-size: 3em; /*48px / 16px = 3em*/
+    line-height: 1em;
+}
+
+h2{
+    font-size: 2.25em; /*36px / 16px = 2.25em*/
+    line-height: 1.1em;
+}
+
+h3{
+    font-size: 1.5em; /*24px / 16px = 1.5em*/
+    line-height: 1.2em;
+}
+
+h4{
+    font-size: 1.3125em; /*21px / 16px = 1.3125em*/
+    line-height: 1.3em;
+}
+
+h5{
+    font-size: 1.125em; /*18px / 16px = 1.125em*/
+    line-height: 1.4em;
+}
+
+h6{
+    font-size: 1em; /*16px / 16px = 1em*/
+    line-height: 1.5em;
+}
+
+/*PARAGRAPH */
+p{
+    margin: 0 0 .5em 0;
+}
+
+/*LINKS */
+a{ color: #39c; text-decoration: none; }
+a:hover {color: #069;text-decoration: underline; }
+a:focus { color: rgb(255, 91, 154); }
+a:visited { color: #39c; }
+
+/*LIST */
+
+ul, ol, li{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    padding: 1em;
+}
+ul ul, ol ol, ul ol, ol ul{
+    padding-bottom: 0;
+}
+li{
+    margin-left: 1.875em;
+}
