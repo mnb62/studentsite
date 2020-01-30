@@ -1,12 +1,16 @@
+/*RESET*/
+
 /*BODY */
 
 body {
-    background: #ccc;
-    color: #333;
+    background: rgb(243, 241, 235);
+    color: rgb(51, 43, 41);
     font-family: helvetica, arial, sans-serif;
     font-size: 100%; /*16px */
     line-height: 1.5em;
-    padding: 1em;
+    margin: 2.5em 1em 1em 1.5em;
+    border: .125em;
+    padding: .5em .5em .5em .5em;
 }
 
 /*HEADING
@@ -20,36 +24,46 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 3em; /*48px / 16px = 3em*/
     line-height: 1em;
+    color: rgb(126, 64, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
     font-size: 2.25em; /*36px / 16px = 2.25em*/
     line-height: 1.1em;
+    color: rgb(165, 98, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3{
     font-size: 1.5em; /*24px / 16px = 1.5em*/
     line-height: 1.2em;
+    color: rgb(226, 129, 64);
 }
 
 h4{
     font-size: 1.3125em; /*21px / 16px = 1.3125em*/
     line-height: 1.3em;
+    color: rgb(226, 129, 64);
 }
 
 h5{
     font-size: 1.125em; /*18px / 16px = 1.125em*/
     line-height: 1.4em;
+    color: rgb(226, 129, 64);
 }
 
 h6{
     font-size: 1em; /*16px / 16px = 1em*/
     line-height: 1.5em;
+    color: rgb(226, 129, 64);
 }
 
 /*PARAGRAPH */
 p{
     margin: 0 0 .5em 0;
+    max-width: 35em;
+    margin-bottom: 1em;
 }
 
 /*LINKS */
