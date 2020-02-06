@@ -4,7 +4,7 @@ body {margin: 0; }
 
 /* GLOBAL COLORS */
 body { 
-    background-color: #ffff;
+    background-color: black;
     color: #0c090d;
 }
 
@@ -13,13 +13,14 @@ a:hover { color: #53b3cb; text-decoration: underline;}
 
 /* GLOBAL TYPOGRAPHY */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 88.75%; /*14px*/
     line-height: 1.4;
 
 }
 
 h1 {
+    font-weight: bold;
     color: #e01a4f;
     width: 100%;
     height: 100%;
@@ -27,3 +28,84 @@ h1 {
     margin-left: .5em;
 
 }
+
+/* NAV */
+
+.topnav {
+    overflow: hidden;
+    padding: 2em 1em 0 0;
+}
+
+.topnav a{
+    text-align: center;
+    float: right;
+    font-size: 120%;
+    padding: .3em;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: white;
+}
+
+.topnav a:active {
+    background-color: lightblue;
+}
+
+.bottomnav {
+    overflow: hidden;
+    padding: 1em;
+}
+
+.bottomnav a{
+    text-align: center;
+    float: left;
+    font-size: 120%;
+    padding: .3em;
+    text-decoration: none;
+}
+
+.bottomnav a:hover {
+    background-color: white;
+}
+
+.bottomnav a:active {
+    background-color: lightblue;
+}
+
+/* SECTION */
+
+section {
+    margin: 1em;
+    background-color: white;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+}
+
+/* COLUMN */
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* PARAGRAPH */
+
+  p {
+      margin: .5em;
+  }
+
+  /* IMAGE */
+
+  img {
+      padding: 1em;
+  }
