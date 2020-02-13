@@ -1,0 +1,34 @@
+/* -----------------------------------
+CSS TABLE CONTENTS
+
+#GLOBALS
+    #RESET
+    #COLORS
+    #TYPOGRAPHY
+        #BODY
+        #HEADINGS
+        #LINKS
+        #LISTS
+        #BLOCK QUOTES
+    #MEDIA
+        #IMAGES (responsive)
+    #COMPONENTS/UI ELEMENTS
+        #BUTTIONS
+    #LAYOUT
+        #CONTAINTER
+        #MEDIA QUERES
+        #GRID STYLE
+    #SITE STRUCTURE
+        #SITE HEADER
+            #SITE ID
+        #SITE MAIN
+        #SITE FOOTER
+        #SITE NAV
+            #TOGGLE NAV
+        #SECTIONS
+        #SUBPAGE
+-------------------------------------*/
+
+/* GLOBAL RESET*/
+body { margin: 0; }
+* {box-sizing: border-box; }
