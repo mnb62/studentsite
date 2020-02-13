@@ -32,3 +32,89 @@ CSS TABLE CONTENTS
 /* GLOBAL RESET*/
 body { margin: 0; }
 * {box-sizing: border-box; }
+
+/* TYPOGRAPHY */
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 100%; /*100% = 1em = 16px*/
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: .5em 0;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.441em;
+}
+
+h3 {
+    font-size: 1.953em;
+}
+
+h4 {
+    font-size: 1.563em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* PARAGRAPHS */
+
+p {
+    max-width: 35em;
+}
+
+a { 
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+}
+
+.button.alt{
+    display: inline-block;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+    padding: 1em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.button.alt:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 1);
+}
