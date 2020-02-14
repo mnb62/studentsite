@@ -4,18 +4,22 @@ body { margin: 0;}
 
 /* GLOBAL COLORS */
 body {
-    background-color: blue;
+    background-color: rgba(100,150,255,1);
     color: white;
 }
-a { color: red; }
+a { color: rgba(90,0,255, 1); }
 
 /* GLOBAL TYPOGRAPHY */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 88.75%; /* 14px */
     line-height: 1.4;
+    color: rgba(90,0,255, 1);
 }
-p { max-width: 35em; }
+p {
+    max-width: 35em;
+    color: rgba(90,0,255, 1);
+}
 a { text-decoration: none; }
 
 /* LAYOUT */
@@ -57,7 +61,7 @@ body {
     align-items: center;
 }
 
-/* STYLING EXPERIMENT */
+/* STYLING EXPERIMENT 
 
 .site-main {
     background-image: url(https://images.unsplash.com/photo-1575659967723-f85cd3a2687e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);
