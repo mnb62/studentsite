@@ -1,0 +1,213 @@
+/* -----------------------------------
+CSS TABLE CONTENTS
+
+#GLOBALS
+    #RESET
+    #COLORS
+    #TYPOGRAPHY
+        #BODY
+        #HEADINGS
+        #LINKS
+        #LISTS
+        #BLOCK QUOTES
+    #MEDIA
+        #IMAGES (responsive)
+    #COMPONENTS/UI ELEMENTS
+        #BUTTIONS
+    #LAYOUT
+        #CONTAINTER
+        #MEDIA QUERES
+        #GRID STYLE
+    #SITE STRUCTURE
+        #SITE HEADER
+            #SITE ID
+        #SITE MAIN
+        #SITE FOOTER
+        #SITE NAV
+            #TOGGLE NAV
+        #SECTIONS
+        #SUBPAGE
+-------------------------------------*/
+
+/* GLOBAL RESET*/
+body { margin: 0; }
+* {box-sizing: border-box; }
+
+/* TYPOGRAPHY */
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 100%; /*100% = 1em = 16px*/
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: .5em 0;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.441em;
+}
+
+h3 {
+    font-size: 1.953em;
+}
+
+h4 {
+    font-size: 1.563em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+/* PARAGRAPHS */
+
+p {
+    max-width: 35em;
+}
+
+a { 
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+}
+
+.button.alt{
+    display: inline-block;
+    background-color: transparent;
+    color: rgba(255, 0, 0, 1);
+    border: 1px solid rgba(255, 0, 0, 1);
+    padding: 1em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.button.alt:hover {
+    color: white;
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* BASE LAYOUT */
+
+/* CONTAINER */
+
+
+/* MEDIA QUERIES */
+
+/* FOR SMALL-SIZE SCREENS */
+body {
+    font-size: 87.5%; /*14px*/
+}
+
+/* FOR MID-SIZE SCREENS/TABLETS */
+@media (min-width: 768px) {
+    body {
+        font-size: 87.5%; /*14px*/
+    }
+}
+
+/* FOR LARGE-SIZE SCREENS/LAPTOPS */
+@media (min-width: 1000px) {
+    body {
+        font-size: 100%; /*16px*/
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: powderblue;
+        padding: 0 1em;
+    }
+}
+
+/* FOR EXTRA-LARGE-SIZE SCREENS/DESKTOPS */
+@media (min-width: 1200px) {
+    body {
+        font-size: 112.5%; /*18px*/
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: palegreen;
+        padding: 0 1em;
+    }
+}
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+/* FOR LAYOUT DEMO PURPOSES */
+
+ /* FOR SMALL-SIZE SCREENS */
+
+body.demo::before {
+    content: "This is for small screens (0-767px)";
+    display: block;
+    background-color: palegoldenrod;
+    color: navy;
+    text-align: center;
+    padding: .2em;
+    font-size: 1em;
+}
+
+/* FOR MID-SIZE SCREENS/TABLETS */
+@media (min-width: 768px) {
+    body.demo::before {
+        content: "This is for mid-size screens (768-999px)";
+        display: block;
+        background-color: pink;}
+    
+}
+
+/* FOR LARGE-SIZE SCREENS/LAPTOPS */
+@media (min-width: 1000px) {
+    body.demo::before {
+        content: "This is for large-size screens (1000-1199px)";
+        display: block;
+        background-color: powderblue;}
+}
+
+/* FOR EXTRA-LARGE-SIZE SCREENS/DESKTOPS */
+@media (min-width: 1200px) {
+    body.demo::before {
+        content: "This is for extra-large screens (1200px +)";
+        display: block;
+        background-color: palegreen;}
+    }
