@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Helvetica, Arial, Sans-Serif;
     margin: .5em 0;
     line-height: 1;
+    color: rgb(61, 61, 61)
 }
 
 h1 {
