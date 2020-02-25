@@ -108,7 +108,7 @@ a:hover {
 
 .button {
     display: inline-block;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: lightblue;
     color: white;
     padding: 1em;
     border-radius: 1em;
@@ -118,15 +118,15 @@ a:hover {
 
 .button:hover {
     background-color: transparent;
-    color: rgba(255, 0, 0, 1);
-    border: 1px solid rgba(255, 0, 0, 1);
+    color: lightblue;
+    border: 1px solid lightblue;
 }
 
 .button.alt{
     display: inline-block;
     background-color: transparent;
-    color: rgba(255, 0, 0, 1);
-    border: 1px solid rgba(255, 0, 0, 1);
+    color: lightblue;
+    border: 1px solid lightblue;
     padding: 1em;
     border-radius: 1em;
     text-transform: uppercase;
@@ -135,7 +135,7 @@ a:hover {
 
 .button.alt:hover {
     color: white;
-    background-color: rgba(255, 0, 0, 1);
+    background-color: lightblue;
 }
 
 /* BASE LAYOUT */
@@ -318,27 +318,6 @@ body.demo::before {
         border-bottom: 1px solid #ccc;
     }
 
-/* MAIN ONLY */
-    .site-main {
-        padding-top: 1em;
-        /* background: rgba(255,204,0,.5); */
-    }
-
-/* FOOTER ONLY */
-    .site-footer {
-        /* background: rgba(255,255,0,.5); */
-    }
-
-    .site-footer .container {
-        padding-bottom: 1em;
-    }
-
-    .site-footer .container:before {
-        display: block;
-        content: "";
-        border-top: 1px solid #ccc;
-        padding-bottom: .5em;
-    }
 
 /* SITE BRANDING ONLY */
     .site-branding {
@@ -359,6 +338,49 @@ body.demo::before {
         .site-branding h1 {
             float: left;
         }
+    }
+
+/* MAIN ONLY */
+    .site-main {
+        padding-top: 1em;
+        /* background: rgba(255,204,0,.5); */
+    }
+
+    section {
+        padding: 1.5em 0;
+    }
+
+    .hero {
+        background: #ccc;
+        text-align: center;
+        padding-top: 4em;
+        padding-bottom: 3em;
+    }
+
+    .hero h1,
+    .hero h2 {
+        font-size: 3em;
+        line-height: 1.1em;
+    }
+
+    .hero p {
+        max-width: 22em;
+    }
+
+/* FOOTER ONLY */
+    .site-footer {
+        /* background: rgba(255,255,0,.5); */
+    }
+
+    .site-footer .container {
+        padding-bottom: 1em;
+    }
+
+    .site-footer .container:before {
+        display: block;
+        content: "";
+        border-top: 1px solid #ccc;
+        padding-bottom: .5em;
     }
 
 /* NAV ONLY */
