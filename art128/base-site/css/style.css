@@ -142,6 +142,10 @@ a:hover {
 
 /* CONTAINER */
 
+/* HELPERS */
+.text-centered {
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 
@@ -352,7 +356,6 @@ body.demo::before {
 
     .hero {
         background: #ccc;
-        text-align: center;
         padding-top: 4em;
         padding-bottom: 3em;
     }
@@ -365,7 +368,14 @@ body.demo::before {
 
     .hero p {
         max-width: 22em;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    /* .hero .text-centered p {
+        margin-left: auto;
+        margin-right: auto;
+    } */
 
 /* FOOTER ONLY */
     .site-footer {
