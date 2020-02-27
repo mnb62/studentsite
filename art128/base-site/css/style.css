@@ -29,7 +29,7 @@ CSS TABLE CONTENTS
         #SUBPAGE
 -------------------------------------*/
 
-/* GLOBAL RESET*/
+/* GLOBAL RESET */
 body { margin: 0; }
 * {box-sizing: border-box; }
 
@@ -210,21 +210,21 @@ body {
 /* medium grid/MEDIUM+ SCREENS */
 @media (min-width:768px) {
 
-    .demo .column {
+    .column {
         float: left;
         margin-right: 3%;
     }
 
-    .demo .column:last-child {
+    .column:last-child {
         margin-right:0;
     }
 
-    .demo .one-whole.column {width: 100%;}
-    .demo .one-half.column {width: 48.5%;}
-    .demo .one-third.column {width: 31.33%;}
-    .demo .one-fourth.column {width: 22.75%;}
-    .demo .two-thirds.column {width: 65.667%;}
-    .demo .column.centered {
+    .one-whole.column {width: 100%;}
+    .one-half.column {width: 48.5%;}
+    .one-third.column {width: 31.33%;}
+    .one-fourth.column {width: 22.75%;}
+    two-thirds.column {width: 65.667%;}
+    .column.centered {
         margin-left: auto;
         margin-right: auto;
         float: none;
@@ -312,6 +312,8 @@ body.demo::before {
 
 /* HEADER ONLY */
     .site-header {
+        display: flex;
+        justify-content: space-between;
         padding-top: 1em;
         /* background: rgba(255,0,0,.5); */
     }
@@ -323,27 +325,72 @@ body.demo::before {
     }
 
 
-/* SITE BRANDING ONLY */
-    .site-branding {
+/* SITE ID ONLY */
+    .site-id {
         text-align: center;
     }
 
-    .site-branding h1 {
-        margin: 0em;
+    .site-id h1 {
         font-size: 1.5em;
     }
 
-    .site-branding h1 a {
+    .site-id h1 a {
         display: inline-block;
         padding: .5em 0em;
     }
 
     @media (min-width: 768px) {
-        .site-branding h1 {
+        .site-id h1 {
             float: left;
         }
     }
 
+/* NAV ONLY */
+    .site-navigation {
+        text-align: center;
+    }
+
+    .site-navigation ul {
+        display: flex;
+    }
+
+    .site-navigation li {
+        list-style: none;
+        padding: 0 1em;
+    }
+
+    .site-footer .site-navigation ul {
+        border-top: none;
+        margin: 0;
+    }
+
+    .site-navigation ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-navigation ul li a{
+        display: block;
+        padding: 1em;
+        
+    }
+
+    @media (min-width: 768px) {
+        .site-header .site-navigation {
+            float: right;
+        }
+        
+        .site-navigation ul {
+            border-top: none;
+        }
+    }
+
+    .site-navigation ul {
+        padding: 0;
+        justify-content: center;
+    }
 /* MAIN ONLY */
     .site-main {
         padding-top: 1em;
@@ -360,26 +407,34 @@ body.demo::before {
         padding-bottom: 3em;
     }
 
+    .hero h1,
     .hero h2 {
         font-size: 3em;
         line-height: 1.1em;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 10em;
     }
 
     .hero p {
         max-width: 22em;
+    }
+    
+    .hero h1,
+    .hero h2,
+    .hero h3,
+    .hero h4,
+    .hero h5,
+    .hero h6,
+    .hero p {
         margin-left: auto;
         margin-right: auto;
     }
 
-    /* .hero .text-centered h1
-    .hero .text-centered h2, {
-        margin-left: auto;
-        margin-right: auto;
-    } */
+/* IMAGES */
 
-    
+img {
+    max-width: 100%;
+    height: auto;
+}
 /* FOOTER ONLY */
     /* .site-footer {
         background: rgba(255,255,0,.5);
@@ -396,41 +451,3 @@ body.demo::before {
         padding-bottom: .5em;
     }
 
-/* NAV ONLY */
-    .site-navigation {
-        text-align: center;
-    }
-
-    .site-navigation ul {
-        border-top: 1px solid #ccc;
-        padding: 0;
-        margin: 0;
-    }
-
-    .site-footer .site-navigation ul {
-        border-top: none;
-        margin: 0;
-    }
-
-    .site-navigation ul li {
-        list-style: none;
-        display: inline-block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .site-navigation ul li a {
-        display: block;
-        padding: 1em;
-        
-    }
-
-    @media (min-width: 768px) {
-        .site-header .site-navigation {
-            float: right;
-        }
-        
-        .site-navigation ul {
-            border-top: none;
-        }
-    }
