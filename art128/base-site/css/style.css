@@ -360,10 +360,11 @@ body.demo::before {
         padding-bottom: 3em;
     }
 
-    .hero h1,
     .hero h2 {
         font-size: 3em;
         line-height: 1.1em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .hero p {
@@ -372,15 +373,17 @@ body.demo::before {
         margin-right: auto;
     }
 
-    /* .hero .text-centered p {
+    /* .hero .text-centered h1
+    .hero .text-centered h2, {
         margin-left: auto;
         margin-right: auto;
     } */
 
+    
 /* FOOTER ONLY */
-    .site-footer {
-        /* background: rgba(255,255,0,.5); */
-    }
+    /* .site-footer {
+        background: rgba(255,255,0,.5);
+    } */
 
     .site-footer .container {
         padding-bottom: 1em;
