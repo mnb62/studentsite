@@ -108,10 +108,10 @@ a:hover {
 
 .button {
     display: inline-block;
-    background-color: lightblue;
+    background-color: darkblue;
     color: white;
     padding: 1em;
-    border-radius: 1em;
+    border-radius: .5em;
     text-transform: uppercase;
     letter-spacing: .1em;
 }
@@ -119,23 +119,23 @@ a:hover {
 .button:hover {
     background-color: transparent;
     color: lightblue;
-    border: 1px solid lightblue;
+    border: 1px solid darkblue;
 }
 
 .button.alt{
     display: inline-block;
     background-color: transparent;
-    color: lightblue;
-    border: 1px solid lightblue;
+    color: darkblue;
+    border: 1px solid darkblue;
     padding: 1em;
-    border-radius: 1em;
+    border-radius: .5em;
     text-transform: uppercase;
     letter-spacing: .1em;
 }
 
 .button.alt:hover {
     color: white;
-    background-color: lightblue;
+    background-color: darkblue;
 }
 
 /* BASE LAYOUT */
