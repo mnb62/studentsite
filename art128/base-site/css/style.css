@@ -95,49 +95,47 @@ p {
     max-width: 100%;
 }
 
+/* LINKS */
+
 a { 
-    color: red;
+    color: rgb(21, 78, 94);
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: black;
 }
 
 /* BUTTON */
 
 .button {
     display: inline-block;
-    background-color: darkblue;
+    background-color: #036;
     color: white;
-    padding: 1em;
+    padding: .5em;
     border-radius: .5em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
+    border: 1px solid transparent;
 }
 
 .button:hover {
     background-color: transparent;
-    color: lightblue;
-    border: 1px solid darkblue;
+    color: #036;
+    border: 1px solid #036;
 }
 
 .button.alt{
     display: inline-block;
     background-color: transparent;
-    color: darkblue;
-    border: 1px solid darkblue;
-    padding: 1em;
+    color: #036;
+    border: 1px solid #036;
+    padding: .5em;
     border-radius: .5em;
-    text-transform: uppercase;
-    letter-spacing: .1em;
 }
 
 .button.alt:hover {
     color: white;
-    background-color: darkblue;
+    background-color: #036;
 }
-
 /* BASE LAYOUT */
 
 /* CONTAINER */
@@ -321,13 +319,22 @@ body.demo::before {
     .site-header .container:after {
         display: block;
         content: "";
-        border-bottom: 1px solid #ccc;
+        /* border-bottom: 1px solid #ccc; */
     }
 
 
 /* SITE ID ONLY */
     .site-id {
         text-align: center;
+    }
+
+    .site-id a {
+        color: #333;
+        text-decoration: none;
+    }
+    .site-id a:hover {
+        color: black;
+        text-decoration: none;
     }
 
     .site-id h1 {
@@ -352,6 +359,7 @@ body.demo::before {
 
     .site-navigation ul {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .site-navigation li {
@@ -367,8 +375,8 @@ body.demo::before {
     .site-navigation ul li {
         list-style: none;
         display: inline-block;
-        margin: 0;
-        padding: 0;
+        margin: 0 .5em;
+        padding: .2em;
     }
 
     .site-navigation ul li a{
@@ -399,12 +407,13 @@ body.demo::before {
 
     section {
         padding: 1.5em 0;
+        margin-bottom: 1em;
     }
 
     .hero {
+        text-align: center;
         background: #ccc;
-        padding-top: 4em;
-        padding-bottom: 3em;
+        padding: 3em 1em;
     }
 
     .hero h1,
@@ -416,6 +425,8 @@ body.demo::before {
 
     .hero p {
         max-width: 22em;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .hero h1,
