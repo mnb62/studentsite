@@ -112,26 +112,59 @@ body {
     color: #003;
   }
   
-  /* #BLOCK QUOTES  */
+  /* ARTICLE */
+
+  article {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article h1,
+  article h2.subhead,
+  article .date {
+    text-align: center;
+  }
+
+  article h2.subhead {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+
+  article .subhead {
+    font-weight: normal;
+    opacity: .7;
+  }
+
+  article .date {
+    font-size: .75em;
+    opacity: .5;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article p + h2,
+  article p + h3,
+  article p + h4,
+  article p + h5,
+  article p + h6 {
+    margin-top: 2em;
+  }
+
+  article p:first-of-type::first-letter {
+    font-size: 3em;
+    line-height: 1em;
+    background: #000;
+    color: #fff;
+    padding: .2em .4em;
+    margin-right: .3em;
+    float: left;
+  }
+
   blockquote {
-    font-size: 1.142em;
-    margin: 1.5em 0;
-    padding: 1.5em;
-    border-top: 0px solid #ccc;
-    border-bottom: 0px solid #ccc;
+    opacity: .7;
   }
-  
-  blockquote cite {
-    display: block;
-    opacity: 0.8;
-    font-size: 0.875em;
-  }
-  
-  blockquote cite:before {
-    content: "\2014";
-    margin-right: 0.25em;
-  }
-  
   /* #HELPERS */
   .text-centered {
     text-align: center;
