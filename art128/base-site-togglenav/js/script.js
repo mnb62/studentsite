@@ -1,12 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-
-    // TOGGLE NAV
-    var mymenubutton = document.querySelector('.menu-button');
-    var mytogglemenu = document.querySelector('.toggle-nav');
-
-    mymenubutton.addEventListener('click', function(){
-        mytogglemenu.classList.toggle('expanded');
-    });
-
-
-});
+document.addEventListener("DOMContentLoaded", function() {
+    //TOGGLE MENU NAV
+    var menubutton = document.querySelectorAll(".menu-button");
+    var i;
+    for (i = 0; i < menubutton.length; i++) {
+      menubutton[i].onclick = function() {
+        this.classList.toggle("expanded");
+      };
+    }
+  });
