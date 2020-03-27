@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Site Name | About</title>
+  <meta name="description"
+    content="a starter html, css, and js"/>
+
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- FOR IE/EDGE -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="site-header toggle-nav">
+    <div class="container">
+      <div class="site-branding">
+        <h1><a href="index.html">Site Name</a> /Contact</h1>
+      </div>
+      <nav class="site-navigation ">
+        <div class="menu-button navicon">Menu</div>
+        <ul class="nav">
+          <li class="hidden"><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END CONTAINER -->
+  </header>
+
+  <main class="site-main">
+    <section class="hero text-centered full-width">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis assumenda sapiente, porro ipsa qui.
+        </p>
+      </section>
+      <div class="container">
+        
+          <div class="row">
+              <div class="two-thirds column centered">
+                  <form>
+                      <label for="contact_name">Name</label>
+                      <input class="text" type="text" name="contact_name" id="contact_name" />
+
+                      <label for="Email">Email Adress</label>
+                      <input class="text" type="text" name="contact_email" id="contact_email" />
+
+                      <label for="contact_message">Message</label>
+                      <textarea id="contact_message"></textarea>
+
+                      <input type="submit" value="Submit" />
+
+                  </form>
+              </div>
+          </div>
+    </div>
+    <!-- END CONTAINER -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="site-navigation">
+        <ul class="nav group">
+          <li class="hidden"><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END CONTAINER -->
+  </footer>
+
+  <!-- MAIN JS -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
