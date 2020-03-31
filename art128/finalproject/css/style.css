@@ -1,0 +1,135 @@
+/* -----------------------------------
+CSS TABLE CONTENTS
+
+#globals
+    #reset
+    #colors
+    #type
+        #body
+        #headings
+        #paragraphs
+        #links
+    #media/misc
+        #images
+        #buttons
+    #structure
+        #head
+            #logo
+            #nav
+                #toggle
+        #main
+            #sections
+        #foot
+    #layout
+        #media queres
+        #container
+        #grid style
+ Reference
+	62.5%  => 10px
+	68.8%  => 11px
+	75%    => 12px
+	81.3%  => 13px
+	87.5%  => 14px
+	100%   => 16px
+	112.5% => 18px
+	125%   => 20px
+*/
+
+/* GLOBAL RESET*/
+body { margin: 0; }
+* {box-sizing: border-box; }
+
+/* COLORS */
+/* ------------------------ TYPE ------------------------ */
+
+/* BODY */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    color: #333;
+    line-height: 1.5em;
+}
+/* HEADINGS */
+
+h1,h2,h3,h4,h5,h6 {
+    margin: .5em;
+}
+h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 2.25em;
+    line-height: 1.1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+h4 {
+    font-size: 1.3125;
+    line-height: 1.3em;
+}
+
+h5 {
+    font-size: 1.125em;
+    line-height: 1.4em;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+/* PARAGRAPHS */
+p {
+    margin: 0 0 0.5em 0;
+    max-width: 100%;
+}
+/* LINKS */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+/* ------------------------ MEDIA/MISC ------------------------ */
+
+/* IMAGES */
+/* BUTTONS */
+
+/* ------------------------ LAYOUT ------------------------ */
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+}
+/* MEDIA QUERES */
+/* GRID */
+
+/* ------------------------ STRUCTURE ------------------------ */
+
+/* --------- HEAD --------- */
+/* LOGO */
+/* NAV */
+/* TOGGLE NAV */
+
+/* --------- MAIN --------- */
+
+/* SECTIONS */
+
+
+/* --------- FOOTER --------- */
