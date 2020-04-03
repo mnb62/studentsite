@@ -107,6 +107,11 @@ a:hover {
 /* IMAGES */
 /* BUTTONS */
 
+button {
+    background-color: red;
+    width: 60px;
+}
+
 /* ------------------------ LAYOUT ------------------------ */
 
 /* CONTAINER */
@@ -116,7 +121,6 @@ a:hover {
     margin: 0 auto;
     padding: 0 4%;
 }
-}
 /* MEDIA QUERES */
 /* GRID */
 
@@ -124,12 +128,86 @@ a:hover {
 
 /* --------- HEAD --------- */
 /* LOGO */
+
 /* NAV */
+
+nav.site-nav {
+    background-color:blue ;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+nav.site-nav ul {
+    text-align: center;
+}
+nav.site-nav ul li{
+    background-color: red;
+    display: inline-block;
+}
+
+nav.site-nav ul li a{
+    background-color: yellow;
+    display: block;
+    padding: .5em .75em .4em .75em;
+    
+}
+
 /* TOGGLE NAV */
 
 /* --------- MAIN --------- */
 
 /* SECTIONS */
 
+/* HERO */
+
+section.hero {
+    background-color: cadetblue;
+}
+
+section.hero h1,
+section.hero h2 {
+    align-content: center;
+}
+
 
 /* --------- FOOTER --------- */
+
+nav.bottom {
+    padding-bottom: 50px;
+    padding-top: 15px; 
+}
+nav.bottom ul li {
+    display: inline-block;
+    
+}
+
+nav.bottom ul li a {
+    display: block;   
+}
+
+
+/* TESTING */
+
+/*header {
+    background-color: pink;
+}
+
+main {
+    background-color: palegreen;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+nav {
+    background-color: palegoldenrod;
+}
+
+nav.bottom {
+    background-color: red;
+}
+
+.container {
+    background-color: bleu;
+} */
