@@ -164,7 +164,7 @@ nav.site-nav ul li a{
 
 /* HERO */
 .ssc {
-    filter: blur(5px);
+    filter: blur(3px);
     width: 100%;
 }
 
