@@ -163,7 +163,7 @@ body {
 }
 
 /* FOR MID-SIZE SCREENS/TABLETS */
-@media (min-width: 768px) {
+@media (min- width: 768px) {
     body {
         font-size: 87.5%; /*14px*/
     }
