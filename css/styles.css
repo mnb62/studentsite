@@ -4,24 +4,28 @@ body { margin: 0;}
 
 /* GLOBAL COLORS */
 body {
-    background-color: #EAC435;
-    color: #CA1551;
+    background-color: #141516;
+    color: white;
 }
-a { color: #CA1551;}
+a { color: white;}
 
 /* GLOBAL TYPOGRAPHY */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 88.75%; /* 14px */
     line-height: 1.4;
-    color: #CA1551;
+    color: white;
 }
 p {
     max-width: 35em;
-    color: #CA1551;
+    color: white;
 }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+.uncomplete {
+    color: gray;
+}
 
 /* LAYOUT */
 body {
@@ -35,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: #345995;
+    /* background-color: #345995; */
 }
 
 .site-header h1 {
