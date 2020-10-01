@@ -20,7 +20,7 @@ p {
     max-width: 35em;
     color: white;
 }
-a { text-decoration: none; }
+a { text-decoration: none; color: rgb(250, 214, 14); }
 a:hover { text-decoration: underline; }
 
 .uncomplete {
