@@ -1,0 +1,33 @@
+/* GLOBAL RESET*/
+* {box-sizing: border-box;}
+
+/* VARIABLES*/
+$color-text-body:#282828;
+$color-text-headings: #282828;
+$color-accent: #000972;
+$color-accent-dark: #000642;
+$color-accent-light: #f2dc03;
+$color-lightgrey:#646464;
+$color-white: rgb(255, 255, 255);
+
+$font-family-head: marine, sans-serif;
+$font-family-body: laca, sans-serif;
+
+
+// BREAK POINTS
+
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+//IMPORTS
+
+@import "partials/sitenav";
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/media";
+@import "partials/structure";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/menugrid";

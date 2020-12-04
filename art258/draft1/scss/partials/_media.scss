@@ -1,0 +1,28 @@
+/* RESPONSIVE IMAGES*/
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    &.logo {
+        max-width: 75px;
+        height: auto;
+        float: left;
+    }
+
+    &.logo.home {
+        max-width: 200px;
+        height: auto;
+        float: left;
+    }
+
+    &.round {
+        border-radius: 50%;
+        max-width: 25%;
+    }
+
+    &.social {
+        max-width: 10%;
+        height: auto;
+    }
+}

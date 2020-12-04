@@ -1,0 +1,43 @@
+/* BODY RESET*/
+
+body {
+    margin: 0;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width:1000px;
+    margin: 0 auto;
+    padding: 0 1em;
+
+}
+
+.container.banner {
+    background-color: $color-accent;
+    padding: 3em 2em;
+    max-width: 100%;
+    
+    p, h3 {
+        color: $color-white;
+        margin: auto;
+    }
+
+    
+}
+
+/*MEDIA QUERES*/
+
+/* RESPONSIVE-TYPE*/
+
+// SMALL
+
+body { font-size: 87.5%}
+
+@media (min-width: $breakpoint-small) {
+    body { font-size: 100%;}
+}
+
+@media (min-width: $breakpoint-medium) {
+    body { font-size: 100.5%;}
+}

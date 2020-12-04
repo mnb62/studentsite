@@ -1,0 +1,34 @@
+/*MENU GRID*/
+
+.menugrid {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        list-style: none;
+        width: 49.5%;
+        padding-bottom: 0.4%;
+    }
+    img {
+        height: auto;
+        max-width: 35%;
+    }
+  }
+
+ul.tags {
+    display: flex;
+}
+  
+  @media (min-width: 768px) {
+    .menugrid li {
+      width: 49%;
+    }
+  }
+  
+    .menugrid img {
+      filter: brightness(1.05);
+      transition: all ease-in-out 0.2s;
+      border: 1px solid rgba(255,255,255,0);
+  }

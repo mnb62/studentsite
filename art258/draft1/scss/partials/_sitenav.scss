@@ -1,0 +1,117 @@
+/*SITE NAV*/
+@media (min-width: $breakpoint-medium){
+    .menu-button {
+        position: absolute;
+        top: -9999px;
+        left: -9999px; 
+    }
+
+    .site-header .site-nav {
+        
+        li {
+            margin: 1em .5em;
+        }
+        ul {
+            background-color: $color-accent;
+            border-radius: 50px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+        }
+        a {
+            display: inline-block;
+            padding: 1em;
+        }
+    
+    }
+}
+
+@media (max-width: $breakpoint-small) {
+
+    .site-header .site-nav {
+
+        .menu-button {
+            position: absolute;
+            top: .75em;
+            right: .75em;
+            margin: 0;
+            font-size: 1.5em;
+            line-height: 1;
+            z-index: 20;
+            cursor: pointer;
+
+            svg {
+                fill: white;
+                rect {
+                transition: .3s all ease-out;
+
+                }
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: #000972;
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            transform: translate(100%,0);
+            transition: .3s all ease-out;
+        }
+
+        li {
+            font-size: 4em;
+            min-width: 20vw;
+        }
+
+        &[data-navstate="open"] {
+
+            .menu-button {
+                position: fixed;
+            }
+
+            #menubar-top {
+                transform-origin: center;
+                transform: translate(7px,7px) rotate(-45deg);
+            }
+
+            #menubar-middle {
+                opacity: 0;
+            }
+
+            #menubar-bottom {
+                transform-origin: center;
+                transform: translate(0px,-4px) rotate(45deg);
+            }
+
+            ul {
+                transform: translate(0,0);
+            }
+        }
+    }
+
+}
+
+/*SITE FOOTER*/ 
+.site-footer .site-nav {
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+    a {
+        display: inline-block;
+        padding: 1em;
+    }
+
+}
